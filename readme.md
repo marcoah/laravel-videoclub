@@ -1,8 +1,9 @@
 # instalacion
 
-0.- Crear BD videoclub en mysql
+Para usar este ejemplo siga los siguientes pasos
 
-1.- Composer install
-2.- cp .env.example .env
-3.- php artisan key:generate
-4.- php artisan migrate --seed
+- Crear BD videoclub en mysql
+- En el terminal: Composer install
+* cp .env.example .env
+* php artisan key:generate
++ php artisan migrate --seed
