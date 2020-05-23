@@ -2,8 +2,8 @@
 
 Para usar este ejemplo siga los siguientes pasos
 
-- Crear BD videoclub en mysql
-- En el terminal: Composer install
-* cp .env.example .env
-* php artisan key:generate
-+ php artisan migrate --seed
+1. Crear BD videoclub en mysql
+2. En el terminal: Composer install
+3. cp .env.example .env
+4. php artisan key:generate
+5. php artisan migrate --seed
