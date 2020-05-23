@@ -2,10 +2,9 @@
 
 @section('title', 'Ver película')
 @section("content")
-
   <div class="row">
     <div class="col-sm-4">
-     <img src="{{$pelicula->poster}}" style="height:350px"/>
+      <img src="{{$pelicula->poster}}" style="height:350px"/>
     </div>
     <div class="col-sm-8">
     <h1>{{$pelicula->title}}</h1>
@@ -26,7 +25,7 @@
 
     <p>
       @if( $pelicula->rented)
-       <button type="button" class="btn btn-danger">Devolver película</button>
+        <button type="button" class="btn btn-danger">Devolver película</button>
       @else
         <button type="button" class="btn btn-info">Alquilar película</button>
       @endif
